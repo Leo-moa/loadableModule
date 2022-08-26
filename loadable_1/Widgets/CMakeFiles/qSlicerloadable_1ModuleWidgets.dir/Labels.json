@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Leonard/code/loadable_1/loadable_1/Widgets/qSlicerloadable_1FooBarWidget.cxx"
+		},
+		{
+			"file" : "C:/Users/Leonard/code/loadable_1/loadable_1/Widgets/qSlicerloadable_1FooBarWidget.h"
+		},
+		{
+			"file" : "C:/Users/Leonard/code/loadable_1/loadable_1/Widgets/moc_qSlicerloadable_1FooBarWidget.cpp"
+		},
+		{
+			"file" : "C:/Users/Leonard/code/loadable_1/loadable_1/Widgets/ui_qSlicerloadable_1FooBarWidget.h"
+		},
+		{
+			"file" : "C:/Users/Leonard/code/loadable_1/loadable_1/Widgets/qrc_qSlicerloadable_1Module.cpp"
+		},
+		{
+			"file" : "C:/Users/Leonard/code/loadable_1/loadable_1/Widgets/qrc_qSlicer.cpp"
+		},
+		{
+			"file" : "C:/Users/Leonard/code/loadable_1/CMakeFiles/4a35a4640d7db7939c0251cec5d363d8/moc_qSlicerloadable_1FooBarWidget.cpp.rule"
+		},
+		{
+			"file" : "C:/Users/Leonard/code/loadable_1/loadable_1/Resources/UI/qSlicerloadable_1FooBarWidget.ui"
+		},
+		{
+			"file" : "C:/Users/Leonard/code/loadable_1/loadable_1/Resources/qSlicerloadable_1Module.qrc"
+		},
+		{
+			"file" : "C:/D/S4/Resources/qSlicer.qrc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerloadable_1ModuleWidgets"
+		],
+		"name" : "qSlicerloadable_1ModuleWidgets"
+	}
+}

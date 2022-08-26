@@ -1,0 +1,7 @@
+vtkSlicerloadable_1ModuleLogicPython
+vtkSlicerloadable_1Logic
+vtkSlicerloadable_1Logic
+DEPENDS
+qSlicerBaseQTCLIPython
+SlicerBaseLogicPython
+MRMLDisplayableManagerPython

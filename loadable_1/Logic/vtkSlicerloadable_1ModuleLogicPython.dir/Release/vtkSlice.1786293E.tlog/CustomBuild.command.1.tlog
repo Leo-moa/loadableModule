@@ -1,0 +1,30 @@
+^C:\USERS\LEONARD\CODE\LOADABLE_1\CMAKEFILES\24EDC86EA359F1AA7A3952A2EA39BDE7\VTKSLICERLOADABLE_1MODULELOGICPYTHONINIT.CXX.RULE
+setlocal
+C:\D\S4R\VTK-build\bin\Release\vtkWrapPythonInit-9.0.exe C:/Users/Leonard/code/loadable_1/loadable_1/Logic/vtkSlicerloadable_1ModuleLogicPythonInit.data C:/Users/Leonard/code/loadable_1/loadable_1/Logic/vtkSlicerloadable_1ModuleLogicPythonInit.cxx C:/Users/Leonard/code/loadable_1/loadable_1/Logic/vtkSlicerloadable_1ModuleLogicPythonInitImpl.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LEONARD\CODE\LOADABLE_1\CMAKEFILES\24EDC86EA359F1AA7A3952A2EA39BDE7\VTKSLICERLOADABLE_1LOGICPYTHON.CXX.RULE
+setlocal
+C:\D\S4R\VTK-build\bin\Release\vtkWrapPython-9.0.exe @C:/Users/Leonard/code/loadable_1/loadable_1/Logic/vtkSlicerloadable_1ModuleLogicPython.Release.args -o C:/Users/Leonard/code/loadable_1/loadable_1/Logic/vtkSlicerloadable_1LogicPython.cxx C:/Users/Leonard/code/loadable_1/loadable_1/Logic/vtkSlicerloadable_1Logic.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LEONARD\CODE\LOADABLE_1\LOADABLE_1\LOGIC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Leonard/code/loadable_1 -BC:/Users/Leonard/code/loadable_1 --check-stamp-file C:/Users/Leonard/code/loadable_1/loadable_1/Logic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,54 @@
+^C:\USERS\LEONARD\CODE\LOADABLE_1\CMAKEFILES\4A35A4640D7DB7939C0251CEC5D363D8\MOC_QSLICERLOADABLE_1FOOBARWIDGET.CPP.RULE
+setlocal
+cd C:\Users\Leonard\code\loadable_1\loadable_1\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.15.2\msvc2019_64\bin\moc.exe @C:/Users/Leonard/code/loadable_1/loadable_1/Widgets/moc_qSlicerloadable_1FooBarWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LEONARD\CODE\LOADABLE_1\LOADABLE_1\RESOURCES\UI\QSLICERLOADABLE_1FOOBARWIDGET.UI
+setlocal
+C:\Qt\5.15.2\msvc2019_64\bin\uic.exe -o C:/Users/Leonard/code/loadable_1/loadable_1/Widgets/ui_qSlicerloadable_1FooBarWidget.h C:/Users/Leonard/code/loadable_1/loadable_1/Resources/UI/qSlicerloadable_1FooBarWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LEONARD\CODE\LOADABLE_1\LOADABLE_1\RESOURCES\QSLICERLOADABLE_1MODULE.QRC
+setlocal
+C:\Qt\5.15.2\msvc2019_64\bin\rcc.exe --name qSlicerloadable_1Module --output C:/Users/Leonard/code/loadable_1/loadable_1/Widgets/qrc_qSlicerloadable_1Module.cpp C:/Users/Leonard/code/loadable_1/loadable_1/Resources/qSlicerloadable_1Module.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\D\S4\RESOURCES\QSLICER.QRC
+setlocal
+C:\Qt\5.15.2\msvc2019_64\bin\rcc.exe --name qSlicer --output C:/Users/Leonard/code/loadable_1/loadable_1/Widgets/qrc_qSlicer.cpp C:/D/S4/Resources/qSlicer.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LEONARD\CODE\LOADABLE_1\LOADABLE_1\WIDGETS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Leonard/code/loadable_1 -BC:/Users/Leonard/code/loadable_1 --check-stamp-file C:/Users/Leonard/code/loadable_1/loadable_1/Widgets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

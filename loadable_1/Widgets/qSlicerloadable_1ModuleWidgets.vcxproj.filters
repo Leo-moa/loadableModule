@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\Widgets\qSlicerloadable_1FooBarWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\Widgets\moc_qSlicerloadable_1FooBarWidget.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\Widgets\qrc_qSlicerloadable_1Module.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\Widgets\qrc_qSlicer.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Leonard\code\loadable_1\loadable_1\Widgets\qSlicerloadable_1FooBarWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Leonard\code\loadable_1\loadable_1\Widgets\ui_qSlicerloadable_1FooBarWidget.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\CMakeFiles\4a35a4640d7db7939c0251cec5d363d8\moc_qSlicerloadable_1FooBarWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\loadable_1\Resources\UI\qSlicerloadable_1FooBarWidget.ui">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\loadable_1\Resources\qSlicerloadable_1Module.qrc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\D\S4\Resources\qSlicer.qrc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\loadable_1\Widgets\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FCA3EFBF-C0ED-3D48-B815-A4E1240DD40A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{8D77FEAB-B218-3029-8B06-6F7F8EFBD604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{22761B85-77D4-381D-ABE6-AE3BCD431632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{E74B4B2E-E263-3BAD-BD83-7DB75E78AE32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ED7BDF63-525D-36A1-9698-4A7AFD9D892B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

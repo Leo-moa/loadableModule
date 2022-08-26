@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/D/S4/Base/QTGUI/Testing/Cxx/qSlicerModuleGenericTest.cxx.in
+C:/D/S4/Base/QTGUI/Testing/Cxx/qSlicerModuleWidgetGenericTest.cxx.in
+C:/D/S4/CMake/qSlicerExport.h.in
+C:/D/S4/Resources/qSlicer.qrc
+C:/Program Files/CMake/share/cmake-3.22/Templates/TestDriver.cxx.in
+C:/Users/Leonard/code/loadable_1/loadable_1/CMakeLists.txt
+C:/Users/Leonard/code/loadable_1/loadable_1/Resources/qSlicerloadable_1Module.qrc

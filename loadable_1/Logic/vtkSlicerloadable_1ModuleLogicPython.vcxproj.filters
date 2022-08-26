@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\Logic\vtkSlicerloadable_1ModuleLogicPythonInit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\Logic\vtkSlicerloadable_1LogicPython.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\Logic\vtkSlicerloadable_1ModuleLogicPythonInitImpl.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\CMakeFiles\24edc86ea359f1aa7a3952a2ea39bde7\vtkSlicerloadable_1ModuleLogicPythonInit.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\CMakeFiles\24edc86ea359f1aa7a3952a2ea39bde7\vtkSlicerloadable_1LogicPython.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\loadable_1\Logic\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FCA3EFBF-C0ED-3D48-B815-A4E1240DD40A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ED7BDF63-525D-36A1-9698-4A7AFD9D892B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

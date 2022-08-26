@@ -1,0 +1,8 @@
+# Target labels
+ qSlicerloadable_1ModuleWidgets
+# Source files and their labels
+C:/Users/Leonard/code/loadable_1/loadable_1/Widgets/generated_cpp/osm_qSlicerloadable_1ModuleWidgets/osm_qSlicerloadable_1ModuleWidgets_init.cpp
+C:/Users/Leonard/code/loadable_1/loadable_1/Widgets/generated_cpp/osm_qSlicerloadable_1ModuleWidgets/osm_qSlicerloadable_1ModuleWidgets_module_init.cpp
+C:/Users/Leonard/code/loadable_1/loadable_1/Widgets/generated_cpp/osm_qSlicerloadable_1ModuleWidgets/moc_osm_qSlicerloadable_1ModuleWidgets.cpp
+C:/Users/Leonard/code/loadable_1/CMakeFiles/7233d9efb28b36dcc3c5d1213e6327ee/osm_qSlicerloadable_1ModuleWidgets_init.cpp.rule
+C:/Users/Leonard/code/loadable_1/CMakeFiles/7233d9efb28b36dcc3c5d1213e6327ee/moc_osm_qSlicerloadable_1ModuleWidgets.cpp.rule

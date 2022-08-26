@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\qSlicerloadable_1Module.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\qSlicerloadable_1ModuleWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\moc_qSlicerloadable_1Module.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\moc_qSlicerloadable_1ModuleWidget.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\qrc_qSlicerloadable_1Module.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\qrc_qSlicer.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Leonard\code\loadable_1\loadable_1\qSlicerloadable_1Module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Leonard\code\loadable_1\loadable_1\qSlicerloadable_1ModuleWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Leonard\code\loadable_1\loadable_1\ui_qSlicerloadable_1ModuleWidget.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\CMakeFiles\861200c5e05ad45649de23cba2232dd5\moc_qSlicerloadable_1Module.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\CMakeFiles\861200c5e05ad45649de23cba2232dd5\moc_qSlicerloadable_1ModuleWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\loadable_1\Resources\UI\qSlicerloadable_1ModuleWidget.ui">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\loadable_1\Resources\qSlicerloadable_1Module.qrc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\D\S4\Resources\qSlicer.qrc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\loadable_1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FCA3EFBF-C0ED-3D48-B815-A4E1240DD40A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{8D77FEAB-B218-3029-8B06-6F7F8EFBD604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{22761B85-77D4-381D-ABE6-AE3BCD431632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{E74B4B2E-E263-3BAD-BD83-7DB75E78AE32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ED7BDF63-525D-36A1-9698-4A7AFD9D892B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

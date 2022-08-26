@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\CMakeFiles\24edc86ea359f1aa7a3952a2ea39bde7\vtkSlicerloadable_1ModuleLogicHierarchy.stamp.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\CMakeFiles\f3994d5290b476c8fbc5a909ca2f26e1\vtkSlicerloadable_1ModuleLogicHierarchy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\loadable_1\Logic\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Leonard\code\loadable_1\loadable_1\Logic\CMakeFiles\vtkSlicerloadable_1ModuleLogicHierarchy" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FCA3EFBF-C0ED-3D48-B815-A4E1240DD40A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

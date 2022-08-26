@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\CMakeFiles\c020e148f56eb3b8700cf5dd6fd94319\AdditionalLauncherSettings.ini.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\CMakeFiles\b917ed3ae986e0595882789ea5c3fac8\ConfigureAdditionalLauncherSettings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Leonard\code\loadable_1\CMakeFiles\ConfigureAdditionalLauncherSettings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FCA3EFBF-C0ED-3D48-B815-A4E1240DD40A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

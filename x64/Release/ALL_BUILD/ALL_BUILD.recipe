@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Leonard\code\loadable_1\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Leonard\code\loadable_1\x64\Release\ConfigureAdditionalLauncherSettings</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Leonard\code\loadable_1\x64\Release\SlicerWithloadable_1ConfigureLauncher</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Leonard\code\loadable_1\lib\Slicer-4.13\qt-loadable-modules\Release\vtkSlicerloadable_1ModuleLogic.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Leonard\code\loadable_1\lib\Slicer-4.13\qt-loadable-modules\Release\qSlicerloadable_1ModuleWidgets.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Leonard\code\loadable_1\lib\Slicer-4.13\qt-loadable-modules\Release\qSlicerloadable_1Module.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Leonard\code\loadable_1\bin\Release\qSlicerloadable_1ModuleGenericCxxTests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Leonard\code\loadable_1\lib\Slicer-4.13\qt-loadable-modules\Release\qSlicerloadable_1ModuleWidgetsPythonQt.pyd</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Leonard\code\loadable_1\loadable_1\Logic\x64\Release\vtkSlicerloadable_1ModuleLogicHierarchy</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Leonard\code\loadable_1\lib\Slicer-4.13\qt-loadable-modules\Release\vtkSlicerloadable_1ModuleLogicPython.pyd</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Leonard\code\loadable_1\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

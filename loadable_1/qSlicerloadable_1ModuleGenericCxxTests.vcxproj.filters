@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\qSlicerloadable_1ModuleCxxTests.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\qSlicerloadable_1ModuleGenericTest.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\qSlicerloadable_1ModuleWidgetGenericTest.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\loadable_1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ED7BDF63-525D-36A1-9698-4A7AFD9D892B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

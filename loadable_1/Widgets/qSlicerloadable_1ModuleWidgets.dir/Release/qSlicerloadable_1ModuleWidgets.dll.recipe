@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Leonard\code\loadable_1\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Leonard\code\loadable_1\lib\Slicer-4.13\qt-loadable-modules\Release\vtkSlicerloadable_1ModuleLogic.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Leonard\code\loadable_1\lib\Slicer-4.13\qt-loadable-modules\Release\qSlicerloadable_1ModuleWidgets.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

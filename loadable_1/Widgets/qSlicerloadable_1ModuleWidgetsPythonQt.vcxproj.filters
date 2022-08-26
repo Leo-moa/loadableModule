@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\Widgets\generated_cpp\osm_qSlicerloadable_1ModuleWidgets\osm_qSlicerloadable_1ModuleWidgets_init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\Widgets\generated_cpp\osm_qSlicerloadable_1ModuleWidgets\osm_qSlicerloadable_1ModuleWidgets_module_init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Leonard\code\loadable_1\loadable_1\Widgets\generated_cpp\osm_qSlicerloadable_1ModuleWidgets\moc_osm_qSlicerloadable_1ModuleWidgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\CMakeFiles\7233d9efb28b36dcc3c5d1213e6327ee\osm_qSlicerloadable_1ModuleWidgets_init.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\CMakeFiles\7233d9efb28b36dcc3c5d1213e6327ee\moc_osm_qSlicerloadable_1ModuleWidgets.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Leonard\code\loadable_1\loadable_1\Widgets\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FCA3EFBF-C0ED-3D48-B815-A4E1240DD40A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ED7BDF63-525D-36A1-9698-4A7AFD9D892B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

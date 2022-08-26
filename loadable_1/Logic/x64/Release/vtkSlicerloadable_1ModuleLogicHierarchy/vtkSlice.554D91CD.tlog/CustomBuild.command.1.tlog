@@ -1,0 +1,30 @@
+^C:\USERS\LEONARD\CODE\LOADABLE_1\CMAKEFILES\24EDC86EA359F1AA7A3952A2EA39BDE7\VTKSLICERLOADABLE_1MODULELOGICHIERARCHY.STAMP.TXT.RULE
+setlocal
+C:\D\S4R\VTK-build\bin\Release\vtkWrapHierarchy-9.0.exe @vtkSlicerloadable_1ModuleLogicHierarchy.Release.args -o C:/D/S4R/Slicer-build/vtkSlicerloadable_1ModuleLogicHierarchy.txt vtkSlicerloadable_1ModuleLogicHierarchy.data @vtkSlicerloadable_1ModuleLogicOtherHierarchyFiles.args
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Leonard/code/loadable_1/loadable_1/Logic/vtkSlicerloadable_1ModuleLogicHierarchy.stamp.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LEONARD\CODE\LOADABLE_1\CMAKEFILES\F3994D5290B476C8FBC5A909CA2F26E1\VTKSLICERLOADABLE_1MODULELOGICHIERARCHY.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LEONARD\CODE\LOADABLE_1\LOADABLE_1\LOGIC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Leonard/code/loadable_1 -BC:/Users/Leonard/code/loadable_1 --check-stamp-file C:/Users/Leonard/code/loadable_1/loadable_1/Logic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
