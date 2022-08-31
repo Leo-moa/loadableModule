@@ -22,13 +22,18 @@
 #include "qSlicerloadable_1FooBarWidget.h"
 #include "ui_qSlicerloadable_1FooBarWidget.h"
 #include <QDebug>
-
+#include<vector>
+#include<iostream>
+using namespace std;
 //MRML includes
 #include <vtkMRMLScene.h>
 #include "vtkMRMLSceneViewNode.h"
 #include <vtkMRMLCrosshairNode.h>
 #include <vtkMRMLTransformNode.h>
 #include <vtkMRMLScalarVolumeNode.h>
+#include <vtkSmartPointer.h>
+#include <vtkMRMLCoreTestingMacros.h>
+
 
 // VTK includes
 #include <vtkObject.h>
@@ -37,8 +42,17 @@
 #include <vtkWeakPointer.h>
 #include <vtkNew.h>
 #include <vtkGeneralTransform.h>
+#include<vtkEventBroker.h>
+#include<vtkCommand.h>
 
-class vtkGeneralTransform;
+double  ijk_point[4] = { 0, 0, 0, 1 };
+double  ras[4] = { 0 , 0 , 0, 1 };
+vtkNew<vtkMRMLScene> scene;
+vtkMRMLVolumeNode* volumeNode = vtkMRMLVolumeNode::SafeDownCast(scene->GetNodeByID("MRHead"));
+vtkMRMLVolumeNode* inputVolumeNode;
+vtkMRMLCrosshairNode* crosshairNode;
+vtkNew<vtkGeneralTransform> transform_ras_to_volume_ras;
+
 
 
 //-----------------------------------------------------------------------------
@@ -92,42 +106,88 @@ qSlicerloadable_1FooBarWidget
 {
 }
 
+vtkNew<vtkMRMLCoreTestingUtilities::vtkMRMLNodeCallback> clickHandler() {
+    qDebug() << "... handler";
+    vtkNew<vtkMRMLCoreTestingUtilities::vtkMRMLNodeCallback> callback;
+    return callback;
+}
+
+void eventHandler() {
+    qDebug() << "... handler";
+    vtkNew<vtkMRMLCoreTestingUtilities::vtkMRMLNodeCallback> callback;
+    double validPosition = crosshairNode->GetCursorPositionRAS(ras);
+    vtkMRMLTransformNode::GetTransformBetweenNodes(nullptr, volumeNode->GetParentTransformNode(), transform_ras_to_volume_ras);
+    transform_ras_to_volume_ras->TransformPoint(ras);
+
+    vtkNew<vtkMatrix4x4> rasToIJK;
+    rasToIJK->Identity();
+
+    volumeNode->GetRASToIJKMatrix(rasToIJK.GetPointer());
+
+    rasToIJK->MultiplyPoint(ras, ijk_point);
+
+    for (int i = 0; i <= 3; i++) {
+        round(ijk_point[i]);
+    }
+
+    int x = ijk_point[0];
+    int y = ijk_point[1];
+    int z = ijk_point[2];
+    int value[3] = { x , y , z }
+    return callback;
+}
+
 void qSlicerloadable_1FooBarWidget::voxel_tracking()
 {
-     
+   
+    
 
-
-    double  ras[3] = { 0 , 0 , 0 };
-    double ijk_point[4] = { 0, 0, 0, 1 };
+ 
+   /* double  ras[4] = { 0 , 0 , 0, 1 };
+    double  ijk_point[4] = { 0, 0, 0, 1 };
 
     vtkNew<vtkMRMLScene> scene;
-    vtkMRMLNode* volumeNode =  scene->GetNodeByID("MRHead");
-
-    vtkMRMLCrosshairNode* crosshairNode;
+    vtkMRMLVolumeNode* volumeNode = vtkMRMLVolumeNode :: SafeDownCast( scene->GetNodeByID("MRHead"));
+    vtkMRMLVolumeNode* inputVolumeNode;
+    vtkMRMLCrosshairNode* crosshairNode;*/
+    //Configure mrml  Observer event
+    vtkNew<vtkMRMLCoreTestingUtilities:: vtkMRMLNodeCallback> callback;
+   crosshairNode -> AddObserver( vtkMRMLCrosshairNode:: CursorPositionModifiedEvent, callback.GetPointer());
     
-    double validPosition = crosshairNode->GetCursorPositionRAS(ras);
 
-    //vtkNew<vtkGeneralTransform> transform_ras_to_volume_ras;
+    vtkEventBroker* broker = vtkEventBroker::GetInstance();
+    broker-> AddObservation( vtkMRMLCrosshairNode:: CursorPositionModifiedEvent, this, callback);
+    //vtkSmartPointer<vtkMRMLVolumeNode> volumeNode;
+    //vtkSmartPointer<vtkMRMLTransformNode> InputVolumeNodeTransformNode = vtkMRMLTransformNode::SafeDownCast(
+      //  scene->GetNodeByID(inputVolumeNode->GetTransformNodeID()));
+    //vtkSmartPointer<vtkGeneralTransform> inputVolumeRAS2RAS = vtkSmartPointer<vtkGeneralTransform>::New();
+    //inputVolumeNodeTransformNode->GetTransformToWorld(inputVolumeRAS2RAS);
 
-    //vtkMRMLTransformNode::GetTransformBetweenNodes(volumeNode->GetParentTransformNode(), nullptr, transform_ras_to_volume_ras);
-    //transform_ras_to_volume_ras->TransformPoint(ras);
+    
+    
+    /*double validPosition = crosshairNode->GetCursorPositionRAS(ras);
 
-    //vtkNew<vtkMatrix4x4> rasToIJK;
-    //rasToIJK->Identity();
+    vtkNew<vtkGeneralTransform> transform_ras_to_volume_ras;
 
-    //volumeNode->GetRASToIJKMatrix(rasToIJK.GetPointer());
+    vtkMRMLTransformNode:: GetTransformBetweenNodes(nullptr, volumeNode -> GetParentTransformNode(), transform_ras_to_volume_ras);
+    transform_ras_to_volume_ras->TransformPoint(ras);
 
-    //rasToIJK->MultiplyPoint(ras.push_back(1.0), ijk_point);
+    vtkNew<vtkMatrix4x4> rasToIJK;
+    rasToIJK->Identity();
 
-    //for (int = i; i <= 3; i++) {
-    //    ijk_point = round(ijk_point[i]);
-    //    }
+    volumeNode->GetRASToIJKMatrix(rasToIJK.GetPointer());
 
-    //int x = ijk_point[0];
-    //int y = ijk_point[1];
-    //int z = ijk_point[2];
-    //int value[3] = { x , y , z };
-    qDebug() << "... store content" << volumeNode;
+    rasToIJK->MultiplyPoint(ras, ijk_point);
+
+    for (int i = 0 ; i <= 3; i++) {
+        round(ijk_point[i]);
+        }
+
+    int x = ijk_point[0];
+    int y = ijk_point[1];
+    int z = ijk_point[2];
+    int value[3] = { x , y , z };
+    qDebug() << "... store content" << ras;*/
 }
 
 
